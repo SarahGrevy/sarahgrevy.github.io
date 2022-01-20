@@ -20,7 +20,7 @@ h4, h5 {
 .me-icon-container {
     width: 200px;
     height: auto;
-    margin-left: 5px;
+    margin-right: 5px;
     object-fit: contain;
     text-align: center;
 }
@@ -28,6 +28,7 @@ h4, h5 {
 .me-icon {
     height: 100%;
     width: 100%;
+    margin-right: 5px;
 }
 
 .terminal-container {
