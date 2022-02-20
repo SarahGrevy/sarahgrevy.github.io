@@ -2,6 +2,11 @@
     margin: -100px auto 0 auto;
 }
 
+.main2-container {
+
+    
+}
+
 /* --- LANDING PAGE --- */
 
 #home {
@@ -20,6 +25,13 @@
     justify-content: center;
 }
 
+.landing-page-details2 {
+    margin: auto 0;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
 .landing-page-socials ul {
     display: flex;
     flex-direction: row;
@@ -32,8 +44,23 @@
     margin: 0 5px;
 }
 
+.center_div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+ 
+    }
+
 .small-title {
     text-align: left;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.small-title2 {
+    text-align: center;
     font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 0.5em;
