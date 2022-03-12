@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <title>Sarah Grevy Gotfredsen Portfolio</title>
+
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+        <meta charset="UTF-8">
+
+        <meta property="og:title" content="Sarah Gotfredsen" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sarahgrevy.github.io/" />
+        <meta property="og:description"
+            content="Hi! I'm Sarah, an aspirering data journalist and current grad student at Columbia University." />
+        <meta property="og:locale" content="en_US" />
+        <!--- <meta property="og:image" content="https://sarahgrevy.github.io/img/me-icon-smiling.png" /> -->
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Sarah Gotfredsen">
+        <meta name="twitter:description"
+            content="Hi! I'm Sarah, an aspirering data journalist and current grad student at Columbia University.">
+        <!---  <meta name="twitter:image" content="https://sarahgrevy.github.io/img/me-icon-smiling.png"> --> 
+        <meta name="twitter:site" content="@grevy_sarah">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="copyright" content="Sarah Grevy
+                                        ">
+        <meta name="description"
+            content=Hi! Im Sarah, an aspirering data journalist and current grad student at Columbia University">
+        <meta name="keywords"
+            content="Sarah Grevy Gotfredse, data journalism, columbia">
+        <meta name="robots" content="noindex, nofollow" />
+
+        <link rel="canonical" href="https://sarahgrevy.github.io/" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./css/main.css" type="text/css">
+        <link rel="stylesheet" href="./css/header.css" type="text/css">
+        <link rel="stylesheet" href="./css/home.css" type="text/css">
+        <link rel="stylesheet" href="./css/projects.css" type="text/css">
+        <link rel="stylesheet" href="./css/footer.css" type="text/css">
+    </head>
+
+    <style>
+        .graph {
+        max-width:80%;
+        }
+        </style>
+
+
+    <body>
+        <header class="header">
+            <a href="/" class="header-logo">@sarahgrevy</a>
+            <nav class="nav">
+                <div class="toggle"><i class="fas fa-bars"></i></div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="/about">About</a></li>
+                  
+                </ul>
+            </nav>
+        </header>
+      
+        <br><br>
+        <main class="main-container home-section" class = header>
+            <section id="home">
+
+                
+                <div class="landing-page-details">
+                    <h1 class="small-title"> Tips & Tricks to Enhancing Your Wordle Skills <h1>
+                    <br>
+                    <p>It’s been a tough couple of months for Sudoku, Spelling Bee, and The Crossword which in January of this year were faced with their own internal competition, namely the up-and-coming word game: Wordle. </p>
+                    <br>
+                    <p>Created by software engineer Josh Wardle (hence, Wordle) as a gift to his partner, Palak Shan, Wordle is currently outranking every other game on The New York Times’s Play Section with over two million players per month. 
+                    </p><br>
+                    <p>Wordle has a satisfying simple aesthetic reminiscent of the first games published during the internet’s infancy. It consists of a simple five by six grith where the player has six tries to guess a five-letter word. The player will guess a random word on the first try after which each letter will turn a distinct color signifying how close it is to the correct word: a grey tile will appear if the letter is not in the word at all, a yellow tile if it’s in the word but in the wrong place, and a green tile if it’s the right letter in the right place. </p>
+                    <br>
+                    <p>As a Wordle enthusiast, I’ve tried to adopt a few tricks along the way to enhance my chances of guessing the word on the fewest number of attempts. For instance, I always guess a word with several vowels such as “Adieu” or “Audio.” In some cases, I look up Five Letter Words for inspiration even though some people might call this cheating.</p>
+                    <br>
+                    <p>But I wanted to take this one step further to enhance my chances of getting it right (ideally on the third try). Fortunately, Wordle published a file containing all the possible correct solutions to each day's problem. There are in total 2,252 possible words. By analyzing this file, we can see what letters are used the more frequently overall:  </p>
+                    <br>
+
+                    <img src="./img/wordle-bar2.svg" class =graph><br>
+                    <br>
+                    <p>The letters E and A show up in about 20% of all Wordle solutions whereas letters such as Q and J show up in less than 2% of the times. A good strategy is to find a five letter word that contains some of the most frequent letters. The best word I can come up with is “OTHER” which has four letters in top five most frequently used. </p>
+                    <br>
+                    <p>Let’s take this one step further and look at what letters are the most common in each of the five sloths. Intuitively, we know that more words end rather than start with the letter Y but for other letters such as D and H it’s harder to imagine wherein a word they’re most likely to appear. The heatmap below shows the likelihood of each letter to appear in each of the five sloths. The darker the color, the more likely the letter is to be in a slot.</p>
+
+                    <img src="./img/wordle-heatmap6.svg" class =graph>
+                    <br>
+                    <p>Based on this analysis we can conclude that: S is the most common first letter; A is the most common second letter, A is the most command third letter; E is most command fourth letter; and E/Y are the most common fifth letter</p>
+                    <br>
+                    <p>Unfortunately, SAAEY isn’t a word. But there are other words that come close enough such as SADLY and SHADY (but let me know if you can think of a better word) </p>
+                    <br>
+                    <p>Once you’ve found the word of the day, you can brag about your results on social media by clicking the “Share” button. This will allow you to copy and paste the green and yellow squares to any social media platform without spoiling the answer. 
+                    </p><br>
+                </div>
+                <div class="art-me">
+                  <!--  <img src="./img/me-icon-smiling.png" alt="Me"> -->
+                  
+                </div>
+                <div class="landing-page-socials">
+                    <ul>
+                        <li class="social-link">
+                            <a href="https://www.linkedin.com/in/sarah-grevy-gotfredsen-aa9538174/" aria-label="LinkedIn"
+                                target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="social-link">
+                            <a href="https://github.com/SarahGrevy" aria-label="GitHub"
+                                target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="social-link">
+                            <a href="https://twitter.com/grevy_sarah" aria-label="Twitter"
+                                target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>
+  
+        </main>
+
+        <footer class="footer-container">
+            <div class="footer">
+                <div class="footer-column">
+                    <a href="/" class="footer-logo">@sarahgrevy</a>
+                    <div class="socials">
+                        <ul>
+                            <li class="social-link">
+                                <a href="https://www.linkedin.com/in/sarah-grevy-gotfredsen-aa9538174/"
+                                    aria-label="LinkedIn" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="social-link">
+                                <a href="https://github.com/SarahGrevy" aria-label="GitHub"
+                                    target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="social-link">
+                                <a href="https://twitter.com/grevy_sarah" aria-label="Twitter"
+                                    target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                         
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                 
+                </div>
+
+            </div>
+        </footer>
+
+        <script src="./js/main.js"></script>
+    </body>
+
+</html>
