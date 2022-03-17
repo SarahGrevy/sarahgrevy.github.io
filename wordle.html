@@ -55,6 +55,29 @@
         .graph {
         max-width:80%;
         }
+        
+        .row-container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+          gap: 2em;
+     }
+
+     .column-container {
+          display: flex;
+          flex-direction: column;
+          flex-basis: 100%;
+          flex: 1;
+     }
+
+     @media (max-width: 80%) {
+          .row-container {
+               flex-direction: column;
+            
+          }
+     }
+
         </style>
 
 
@@ -89,7 +112,7 @@
                     <p>But I wanted to take this one step further to enhance my chances of getting it right (ideally on the third try). Fortunately, Wordle published a file containing all the possible correct solutions to each day's problem. There are in total 2,252 possible words. By analyzing this file, we can see what letters are used the more frequently overall:  </p>
                     <br>
 
-                    <img src="./img/wordle-bar2.svg" class =graph><br>
+                    <img src="./img/wordle-bar2.svg" class =media><br>
                     <br>
                     <p>The letters E and A show up in about 20% of all Wordle solutions whereas letters such as Q and J show up in less than 2% of the times. A good strategy is to find a five letter word that contains some of the most frequent letters. The best word I can come up with is “OTHER” which has four letters in top five most frequently used. </p>
                     <br>
